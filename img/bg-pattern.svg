@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <defs>
+    <style>
+      .ic { fill: none; stroke: #2d4a2a; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; opacity: 0.32; }
+      .ic-fill { fill: #2d4a2a; opacity: 0.32; }
+    </style>
+
+    <!-- Иконки центрированы вокруг (0,0) — bbox примерно ±35 для крупных, ±25 для мелких -->
+
+    <symbol id="tower" overflow="visible">
+      <g transform="translate(-38, -34)">
+        <path d="M 2 55 L 2 50 Q 2 46 6 46 L 70 46 Q 74 46 74 50 L 74 55" />
+        <circle cx="14" cy="58" r="5" /><circle cx="14" cy="58" r="2" />
+        <circle cx="62" cy="58" r="5" /><circle cx="62" cy="58" r="2" />
+        <rect x="4" y="30" width="20" height="16" rx="1" />
+        <line x1="7" y1="33" x2="20" y2="33" /><line x1="13" y1="33" x2="13" y2="42" />
+        <path d="M 2 55 L -2 62" /><path d="M 74 55 L 78 62" />
+        <path d="M 30 42 L 30 32 L 48 18 L 66 8" /><path d="M 34 42 L 34 32 L 52 18 L 68 10" />
+        <line x1="30" y1="32" x2="34" y2="32" />
+        <rect x="60" y="4" width="14" height="9" rx="1" /><line x1="60" y1="7" x2="74" y2="7" />
+        <line x1="30" y1="40" x2="45" y2="30" />
+      </g>
+    </symbol>
+
+    <symbol id="tree" overflow="visible">
+      <g transform="translate(-30, -36)">
+        <path d="M 30 62 L 30 70 L 40 70 L 40 62" />
+        <path d="M 35 2 L 46 16 L 42 16 L 48 24 L 44 24 L 52 32 L 46 32 L 54 42 L 44 42 L 56 52 L 14 52 L 26 42 L 16 42 L 24 32 L 18 32 L 22 24 L 18 24 L 24 16 L 20 16 Z" />
+        <line x1="30" y1="22" x2="30" y2="28" /><line x1="40" y1="22" x2="40" y2="28" />
+        <line x1="25" y1="34" x2="25" y2="38" /><line x1="45" y1="34" x2="45" y2="38" />
+      </g>
+    </symbol>
+
+    <symbol id="carabiner" overflow="visible">
+      <g transform="translate(-20, -35)">
+        <path d="M 14 2 Q 2 2 2 18 L 2 52 Q 2 68 20 68 L 20 68 Q 38 68 38 52 L 38 20 Q 38 4 24 4" />
+        <line x1="24" y1="4" x2="12" y2="18" />
+        <path d="M 10 22 L 30 22" /><path d="M 10 25 L 30 25" /><path d="M 10 28 L 30 28" />
+        <ellipse cx="20" cy="56" rx="8" ry="4" />
+      </g>
+    </symbol>
+
+    <symbol id="snowflake" overflow="visible">
+      <g transform="translate(-25, -25)">
+        <line x1="25" y1="2" x2="25" y2="48" /><line x1="5" y1="12" x2="45" y2="38" /><line x1="5" y1="38" x2="45" y2="12" />
+        <path d="M 22 5 L 25 2 L 28 5" /><path d="M 22 45 L 25 48 L 28 45" />
+        <path d="M 7 15 L 5 12 L 8 10" /><path d="M 42 36 L 45 38 L 43 41" />
+        <path d="M 7 35 L 5 38 L 8 40" /><path d="M 42 14 L 45 12 L 43 9" />
+        <line x1="25" y1="10" x2="21" y2="6" /><line x1="25" y1="10" x2="29" y2="6" />
+        <line x1="25" y1="40" x2="21" y2="44" /><line x1="25" y1="40" x2="29" y2="44" />
+        <line x1="12" y1="18" x2="10" y2="22" /><line x1="38" y1="32" x2="40" y2="28" />
+        <circle cx="25" cy="25" r="2" />
+      </g>
+    </symbol>
+
+    <symbol id="helmet" overflow="visible">
+      <g transform="translate(-30, -26)">
+        <path d="M 6 30 Q 6 6 30 6 Q 54 6 54 30" />
+        <path d="M 12 10 Q 18 4 30 4 Q 42 4 48 10" />
+        <path d="M 2 30 Q 30 36 58 30" /><path d="M 2 32 Q 30 38 58 32" />
+        <path d="M 12 30 L 10 42 Q 30 48 50 42 L 48 30" />
+        <line x1="30" y1="44" x2="30" y2="48" /><rect x="28" y="48" width="4" height="3" />
+      </g>
+    </symbol>
+
+    <symbol id="chainsaw" overflow="visible">
+      <g transform="translate(-35, -24)">
+        <rect x="26" y="12" width="30" height="20" rx="3" />
+        <line x1="30" y1="16" x2="36" y2="16" /><line x1="30" y1="19" x2="36" y2="19" />
+        <line x1="30" y1="22" x2="36" y2="22" /><line x1="30" y1="25" x2="36" y2="25" />
+        <line x1="30" y1="28" x2="36" y2="28" />
+        <circle cx="46" cy="22" r="4" /><circle cx="46" cy="22" r="1.5" class="ic-fill" />
+        <path d="M 32 12 L 32 4 L 54 4 L 54 12" /><path d="M 32 8 L 54 8" />
+        <path d="M 56 20 L 66 16 L 66 28 L 56 24" />
+        <path d="M 26 20 Q 24 20 24 22 L 4 22 Q 2 22 2 24 L 2 26 Q 2 28 4 28 L 24 28 Q 26 28 26 26 Z" />
+        <line x1="6" y1="22" x2="6" y2="19" /><line x1="12" y1="22" x2="12" y2="19" />
+        <line x1="18" y1="22" x2="18" y2="19" /><line x1="24" y1="22" x2="24" y2="19" />
+        <line x1="6" y1="28" x2="6" y2="31" /><line x1="12" y1="28" x2="12" y2="31" />
+        <line x1="18" y1="28" x2="18" y2="31" /><line x1="24" y1="28" x2="24" y2="31" />
+        <path d="M 32 34 L 28 44 L 48 44 L 44 34" />
+      </g>
+    </symbol>
+
+    <symbol id="cutter" overflow="visible">
+      <g transform="translate(-25, -25)">
+        <circle cx="25" cy="25" r="22" /><circle cx="25" cy="25" r="19" />
+        <line x1="25" y1="3" x2="25" y2="7" /><line x1="25" y1="43" x2="25" y2="47" />
+        <line x1="3" y1="25" x2="7" y2="25" /><line x1="43" y1="25" x2="47" y2="25" />
+        <line x1="9" y1="9" x2="12" y2="12" /><line x1="38" y1="38" x2="41" y2="41" />
+        <line x1="9" y1="41" x2="12" y2="38" /><line x1="38" y1="12" x2="41" y2="9" />
+        <line x1="18" y1="5" x2="19" y2="8" /><line x1="32" y1="5" x2="31" y2="8" />
+        <line x1="18" y1="45" x2="19" y2="42" /><line x1="32" y1="45" x2="31" y2="42" />
+        <line x1="25" y1="8" x2="25" y2="42" /><line x1="8" y1="25" x2="42" y2="25" />
+        <line x1="13" y1="13" x2="37" y2="37" /><line x1="13" y1="37" x2="37" y2="13" />
+        <circle cx="25" cy="25" r="5" /><circle cx="25" cy="25" r="2" class="ic-fill" />
+      </g>
+    </symbol>
+
+    <symbol id="pinecone" overflow="visible">
+      <g transform="translate(-18, -24)">
+        <path d="M 10 46 Q 2 36 4 24 Q 6 12 18 4 Q 30 12 32 24 Q 34 36 26 46 Z" />
+        <path d="M 18 10 L 12 16 L 18 22 L 24 16 Z" />
+        <path d="M 10 20 L 6 26 L 12 30 L 16 24 Z" />
+        <path d="M 26 20 L 30 26 L 24 30 L 20 24 Z" />
+        <path d="M 18 24 L 14 30 L 18 36 L 22 30 Z" />
+        <path d="M 10 32 L 8 38 L 14 40 L 16 34 Z" />
+        <path d="M 26 32 L 28 38 L 22 40 L 20 34 Z" />
+      </g>
+    </symbol>
+
+    <symbol id="maple" overflow="visible">
+      <g transform="translate(-30, -35)">
+        <path d="M 30 56 L 30 42 L 18 48 L 20 36 L 6 38 L 14 26 L 2 20 L 14 16 L 10 4 L 22 8 L 24 2 L 30 8 L 36 2 L 38 8 L 50 4 L 46 16 L 58 20 L 46 26 L 54 38 L 40 36 L 42 48 L 30 42 Z" />
+        <line x1="30" y1="42" x2="30" y2="10" />
+        <line x1="30" y1="22" x2="18" y2="14" /><line x1="30" y1="22" x2="42" y2="14" />
+        <line x1="30" y1="30" x2="12" y2="26" /><line x1="30" y1="30" x2="48" y2="26" />
+        <line x1="30" y1="56" x2="30" y2="68" />
+      </g>
+    </symbol>
+
+    <symbol id="rope" overflow="visible">
+      <g transform="translate(-26, -27)">
+        <path d="M 2 12 Q 12 2 24 10 Q 36 18 24 26 Q 12 34 24 42 Q 36 50 48 42" />
+        <path d="M 4 14 Q 14 4 26 12 Q 38 20 26 28 Q 14 36 26 44 Q 38 52 50 44" />
+        <line x1="20" y1="14" x2="22" y2="18" /><line x1="26" y1="14" x2="28" y2="18" />
+        <line x1="20" y1="30" x2="22" y2="34" /><line x1="26" y1="30" x2="28" y2="34" />
+      </g>
+    </symbol>
+
+    <symbol id="ladder" overflow="visible">
+      <g transform="translate(-15, -30)">
+        <line x1="4" y1="2" x2="4" y2="58" /><line x1="7" y1="2" x2="7" y2="58" />
+        <line x1="24" y1="2" x2="24" y2="58" /><line x1="27" y1="2" x2="27" y2="58" />
+        <rect x="7" y="8" width="17" height="3" /><rect x="7" y="18" width="17" height="3" />
+        <rect x="7" y="28" width="17" height="3" /><rect x="7" y="38" width="17" height="3" />
+        <rect x="7" y="48" width="17" height="3" />
+      </g>
+    </symbol>
+
+    <symbol id="hammer" overflow="visible">
+      <g transform="translate(-22, -31)">
+        <path d="M 18 14 L 22 14 L 24 58 L 16 58 Z" />
+        <line x1="17" y1="22" x2="23" y2="22" /><line x1="17" y1="34" x2="23" y2="34" />
+        <line x1="17" y1="46" x2="23" y2="46" /><line x1="17" y1="52" x2="23" y2="52" />
+        <path d="M 4 4 L 14 4 L 14 2 L 26 2 L 26 4 L 36 4 L 36 14 L 26 14 L 26 16 L 14 16 L 14 14 L 4 14 Z" />
+        <path d="M 4 7 L 2 7 L 2 11 L 4 11" /><path d="M 36 7 L 40 7 L 40 11 L 36 11" />
+        <circle cx="20" cy="60" r="2" />
+      </g>
+    </symbol>
+
+    <symbol id="house" overflow="visible">
+      <g transform="translate(-40, -35)">
+        <path d="M 2 28 L 40 2 L 78 28" /><path d="M 2 28 L 40 4 L 78 28" />
+        <line x1="38" y1="4" x2="42" y2="4" />
+        <rect x="55" y="12" width="7" height="12" /><rect x="54" y="10" width="9" height="3" />
+        <rect x="8" y="28" width="64" height="38" />
+        <line x1="8" y1="42" x2="72" y2="42" />
+        <rect x="14" y="38" width="12" height="12" /><line x1="20" y1="38" x2="20" y2="50" />
+        <line x1="14" y1="44" x2="26" y2="44" />
+        <rect x="54" y="38" width="12" height="12" /><line x1="60" y1="38" x2="60" y2="50" />
+        <line x1="54" y1="44" x2="66" y2="44" />
+        <rect x="34" y="48" width="12" height="18" /><line x1="40" y1="48" x2="40" y2="66" />
+        <line x1="30" y1="66" x2="50" y2="66" />
+      </g>
+    </symbol>
+
+    <symbol id="axe" overflow="visible">
+      <g transform="translate(-28, -30)">
+        <line x1="2" y1="52" x2="38" y2="12" /><line x1="4" y1="54" x2="40" y2="14" />
+        <line x1="10" y1="46" x2="12" y2="44" /><line x1="18" y1="38" x2="20" y2="36" />
+        <circle cx="2" cy="54" r="2" />
+        <path d="M 32 4 L 50 8 L 54 22 L 48 28 L 36 24 L 32 20 Z" />
+        <path d="M 36 8 L 48 11" /><line x1="36" y1="12" x2="46" y2="14" />
+        <path d="M 50 8 Q 56 14 54 22" />
+      </g>
+    </symbol>
+
+    <symbol id="cloud" overflow="visible">
+      <g transform="translate(-36, -24)">
+        <path d="M 10 32 Q 2 32 2 24 Q 2 16 12 16 Q 14 6 26 6 Q 36 2 44 10 Q 54 6 62 14 Q 70 18 68 28 Q 68 36 58 36 L 14 36 Q 10 36 10 32 Z" />
+        <path d="M 16 32 Q 24 28 32 32" /><path d="M 36 32 Q 44 28 52 32" />
+        <path d="M 20 40 L 18 44 Q 20 46 22 44 Z" />
+        <path d="M 36 42 L 34 46 Q 36 48 38 46 Z" />
+        <path d="M 52 40 L 50 44 Q 52 46 54 44 Z" />
+      </g>
+    </symbol>
+
+    <symbol id="bird" overflow="visible">
+      <g transform="translate(-27, -20)">
+        <path d="M 2 24 Q 8 14 24 16 Q 36 18 44 24 L 42 30 Q 34 32 24 30 Q 10 28 2 24 Z" />
+        <circle cx="44" cy="20" r="5" />
+        <path d="M 48 18 L 54 16 L 48 20 Z" />
+        <path d="M 14 22 Q 22 10 32 14 Q 28 22 20 24 Q 14 26 14 22 Z" />
+        <path d="M 2 24 L -6 20 L -4 26 L -6 30 Z" />
+        <line x1="18" y1="30" x2="18" y2="36" /><line x1="24" y1="30" x2="24" y2="36" />
+      </g>
+    </symbol>
+
+    <symbol id="saw" overflow="visible">
+      <g transform="translate(-25, -18)">
+        <rect x="2" y="20" width="12" height="12" rx="2" />
+        <path d="M 14 22 L 48 22 L 48 30 L 14 30 Z" />
+        <path d="M 16 30 L 18 36 L 22 30 M 24 30 L 26 36 L 30 30 M 32 30 L 34 36 L 38 30 M 40 30 L 42 36 L 46 30" />
+      </g>
+    </symbol>
+
+    <symbol id="screwdriver" overflow="visible">
+      <g transform="translate(-22, -14)">
+        <path d="M 2 10 L 2 20 L 12 20 L 12 10 Z" />
+        <line x1="4" y1="13" x2="10" y2="13" /><line x1="4" y1="17" x2="10" y2="17" />
+        <path d="M 12 11 L 12 19 L 30 17 L 30 13 Z" />
+        <path d="M 30 13 L 42 15 L 30 17 Z" />
+      </g>
+    </symbol>
+
+    <symbol id="nut" overflow="visible">
+      <g transform="translate(-14, -12)">
+        <path d="M 4 6 L 14 2 L 24 6 L 24 18 L 14 22 L 4 18 Z" />
+        <circle cx="14" cy="12" r="4" />
+      </g>
+    </symbol>
+
+    <symbol id="bolt" overflow="visible">
+      <g transform="translate(-10, -21)">
+        <path d="M 12 2 L 2 22 L 10 22 L 6 40 L 20 16 L 12 16 Z" />
+      </g>
+    </symbol>
+
+    <symbol id="grinder" overflow="visible">
+      <g transform="translate(-22, -16)">
+        <rect x="2" y="8" width="20" height="14" rx="2" />
+        <line x1="4" y1="12" x2="18" y2="12" /><line x1="4" y1="16" x2="18" y2="16" />
+        <path d="M 22 10 L 30 10 L 30 20 L 22 20" />
+        <circle cx="34" cy="15" r="8" /><circle cx="34" cy="15" r="3" />
+      </g>
+    </symbol>
+
+    <symbol id="acorn" overflow="visible">
+      <g transform="translate(-12, -16)">
+        <path d="M 2 10 Q 2 4 12 4 Q 22 4 22 10 L 20 14 L 4 14 Z" />
+        <line x1="4" y1="7" x2="20" y2="7" /><line x1="6" y1="10" x2="18" y2="10" />
+        <path d="M 4 14 Q 4 26 12 32 Q 20 26 20 14" />
+      </g>
+    </symbol>
+
+    <symbol id="icicle" overflow="visible">
+      <g transform="translate(-8, -21)">
+        <path d="M 2 2 L 14 2 L 10 36 L 8 40 L 6 36 Z" />
+        <line x1="4" y1="8" x2="12" y2="8" />
+        <line x1="5" y1="14" x2="11" y2="14" />
+        <line x1="6" y1="22" x2="10" y2="22" />
+      </g>
+    </symbol>
+
+    <symbol id="branch" overflow="visible">
+      <g transform="translate(-21, -21)">
+        <path d="M 2 38 Q 10 30 20 24 Q 30 18 40 10" />
+        <path d="M 8 32 Q 2 26 6 20 Q 12 22 14 28 Z" />
+        <path d="M 20 24 Q 14 18 18 12 Q 24 14 26 20 Z" />
+        <path d="M 32 16 Q 28 10 32 4 Q 38 6 38 12 Z" />
+      </g>
+    </symbol>
+
+    <symbol id="hook" overflow="visible">
+      <g transform="translate(-14, -28)">
+        <path d="M 15 2 Q 10 10 15 18 Q 20 26 15 34" />
+        <path d="M 15 34 Q 8 36 8 44 Q 8 54 18 54 Q 24 54 24 48 L 24 44" />
+        <circle cx="15" cy="2" r="2" />
+      </g>
+    </symbol>
+
+    <symbol id="star" overflow="visible">
+      <g transform="translate(-12, -12)">
+        <path d="M 12 2 L 15 9 L 22 9 L 16 14 L 18 22 L 12 17 L 6 22 L 8 14 L 2 9 L 9 9 Z" />
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- Сетка 7x7, шаг 80px + jitter ±10px по каждой оси.
+       Иконки центрированы вокруг (0,0), не пересекаются.
+       4 граничные иконки продублированы на противоположной стороне тайла (seamless). -->
+  <g class="ic">
+
+    <!-- РЯД 1 (y≈40, jitter) -->
+    <use href="#tower"       x="48"  y="35"  transform="rotate(-14 48 35) scale(0.75)"/>
+    <use href="#saw"         x="125" y="48"  transform="rotate(55 125 48)"/>
+    <use href="#tree"        x="192" y="32"  transform="rotate(20 192 32) scale(0.85)"/>
+    <use href="#carabiner"   x="290" y="42"  transform="rotate(-32 290 42) scale(0.9)"/>
+    <use href="#snowflake"   x="352" y="30"  transform="rotate(15 352 30)"/>
+    <use href="#chainsaw"    x="445" y="48"  transform="rotate(-25 445 48) scale(0.75)"/>
+    <use href="#pinecone"    x="528" y="38"  transform="rotate(40 528 38)"/>
+
+    <!-- РЯД 2 (y≈120) -->
+    <use href="#house"       x="45"  y="118" transform="rotate(-8 45 118) scale(0.75)"/>
+    <use href="#nut"         x="128" y="128" transform="rotate(30 128 128)"/>
+    <use href="#rope"        x="195" y="112" transform="rotate(25 195 112) scale(0.9)"/>
+    <use href="#cutter"      x="275" y="130" transform="rotate(0 275 130) scale(0.9)"/>
+    <use href="#helmet"      x="365" y="115" transform="rotate(12 365 115) scale(0.85)"/>
+    <use href="#ladder"      x="448" y="125" transform="rotate(28 448 125) scale(0.9)"/>
+    <use href="#maple"       x="515" y="118" transform="rotate(-20 515 118) scale(0.75)"/>
+
+    <!-- РЯД 3 (y≈200) -->
+    <use href="#screwdriver" x="50"  y="205" transform="rotate(-45 50 205)"/>
+    <use href="#bolt"        x="115" y="195" transform="rotate(20 115 195)"/>
+    <use href="#grinder"     x="205" y="208" transform="rotate(-30 205 208)"/>
+    <use href="#acorn"       x="288" y="192" transform="rotate(45 288 192)"/>
+    <use href="#star"        x="358" y="210" transform="rotate(10 358 210)"/>
+    <use href="#icicle"      x="442" y="198" transform="rotate(5 442 198)"/>
+    <use href="#branch"      x="520" y="205" transform="rotate(60 520 205)"/>
+
+    <!-- РЯД 4 (y≈280) -->
+    <use href="#axe"         x="42"  y="272" transform="rotate(35 42 272) scale(0.85)"/>
+    <use href="#hammer"      x="125" y="288" transform="rotate(-48 125 288) scale(0.9)"/>
+    <use href="#cloud"       x="198" y="275" transform="rotate(8 198 275) scale(0.75)"/>
+    <use href="#tree"        x="282" y="285" transform="rotate(-16 282 285) scale(0.75)"/>
+    <use href="#chainsaw"    x="362" y="268" transform="rotate(42 362 268) scale(0.75)"/>
+    <use href="#bird"        x="438" y="282" transform="rotate(-5 438 282) scale(0.85)"/>
+    <use href="#carabiner"   x="525" y="278" transform="rotate(22 525 278) scale(0.75)"/>
+
+    <!-- РЯД 5 (y≈360) -->
+    <use href="#star"        x="48"  y="368" transform="rotate(-30 48 368)"/>
+    <use href="#pinecone"    x="118" y="352" transform="rotate(-20 118 352) scale(0.9)"/>
+    <use href="#nut"         x="202" y="365" transform="rotate(-20 202 365)"/>
+    <use href="#snowflake"   x="285" y="358" transform="rotate(-25 285 358) scale(0.9)"/>
+    <use href="#rope"        x="355" y="370" transform="rotate(-18 355 370) scale(0.85)"/>
+    <use href="#saw"         x="445" y="355" transform="rotate(40 445 355)"/>
+    <use href="#maple"       x="522" y="365" transform="rotate(50 522 365) scale(0.75)"/>
+
+    <!-- РЯД 6 (y≈440) -->
+    <use href="#ladder"      x="38"  y="448" transform="rotate(-35 38 448) scale(0.85)"/>
+    <use href="#hook"        x="122" y="432" transform="rotate(25 122 432) scale(0.9)"/>
+    <use href="#branch"      x="195" y="445" transform="rotate(-40 195 445)"/>
+    <use href="#helmet"      x="278" y="438" transform="rotate(-10 278 438) scale(0.85)"/>
+    <use href="#cutter"      x="365" y="442" transform="rotate(15 365 442) scale(0.85)"/>
+    <use href="#star"        x="440" y="430" transform="rotate(20 440 430)"/>
+    <use href="#screwdriver" x="518" y="448" transform="rotate(60 518 448)"/>
+
+    <!-- РЯД 7 (y≈520) -->
+    <use href="#bird"        x="50"  y="515" transform="rotate(28 50 515) scale(0.85)"/>
+    <use href="#cloud"       x="128" y="528" transform="rotate(-22 128 528) scale(0.75)"/>
+    <use href="#tower"       x="200" y="512" transform="rotate(20 200 512) scale(0.75)"/>
+    <use href="#bolt"        x="290" y="525" transform="rotate(-15 290 525)"/>
+    <use href="#acorn"       x="358" y="518" transform="rotate(15 358 518)"/>
+    <use href="#hammer"      x="448" y="522" transform="rotate(45 448 522) scale(0.85)"/>
+    <use href="#tree"        x="525" y="518" transform="rotate(10 525 518) scale(0.75)"/>
+
+    <!-- =========== ГРАНИЧНЫЕ ИКОНКИ С ДУБЛИКАТАМИ (seamless) =========== -->
+
+    <!-- A. Пересекает ЛЕВУЮ границу (x≈0) — дубликат на правой (x+560) -->
+    <use href="#maple"       x="0"   y="245" transform="rotate(-55 0 245) scale(0.8)"/>
+    <use href="#maple"       x="560" y="245" transform="rotate(-55 560 245) scale(0.8)"/>
+
+    <!-- B. Пересекает ВЕРХНЮЮ границу (y≈0) — дубликат внизу (y+560) -->
+    <use href="#ladder"      x="320" y="0"   transform="rotate(70 320 0) scale(0.8)"/>
+    <use href="#ladder"      x="320" y="560" transform="rotate(70 320 560) scale(0.8)"/>
+
+    <!-- C. Пересекает ПРАВУЮ границу — дубликат слева -->
+    <use href="#chainsaw"    x="560" y="400" transform="rotate(-10 560 400) scale(0.8)"/>
+    <use href="#chainsaw"    x="0"   y="400" transform="rotate(-10 0 400) scale(0.8)"/>
+
+    <!-- D. Пересекает НИЖНЮЮ границу — дубликат сверху -->
+    <use href="#rope"        x="90"  y="560" transform="rotate(35 90 560) scale(0.85)"/>
+    <use href="#rope"        x="90"  y="0"   transform="rotate(35 90 0) scale(0.85)"/>
+
+  </g>
+</svg>
