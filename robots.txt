@@ -1,0 +1,10 @@
+# robots.txt для https://автовышка66.рф
+User-agent: *
+Allow: /
+# Служебные страницы закрыты через noindex, поэтому не запрещаем их обход.
+Disallow: /tools/
+
+# Яндекс: не учитывать рекламные метки
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&yclid&gclid&fbclid
+
+Sitemap: https://xn--66-6kcaja0d4a9a3d6a.xn--p1ai/sitemap.xml

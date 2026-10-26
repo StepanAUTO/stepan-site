@@ -1,0 +1,17 @@
+# Локальная конфигурация и секреты
+opencode.json
+.env
+.env.*
+
+# Временные файлы
+tmp-*
+*.log
+*.pyc
+__pycache__/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Зависимости
+node_modules/
